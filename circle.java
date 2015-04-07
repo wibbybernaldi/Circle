@@ -14,6 +14,10 @@ public class circle {
             radius=r;
             color=c;
         }
+    public circle(double r,double s, String c){
+        radius=r-s;
+        color=c;
+    }
 
     public double getRadius(){
         return radius;

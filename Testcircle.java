@@ -8,5 +8,9 @@ public class Testcircle {
 
         circle c3=new circle();
         System.out.println("radius= "+c3.getRadius()+", Color="+ c3.getColor()+", Area= "+ c3.getArea());
+
+        circle c4=new circle(7.0,3.0,"cyan");
+        System.out.println("radius= "+c4.getRadius()+", Color="+ c4.getColor()+", Area= "+ c4.getArea());
+
     }
 }
